@@ -28,7 +28,37 @@
         //}
         #endregion
 
-       
+        #region Q2
+        //q2:Explain the difference between passing (Reference type parameters) by value and by reference
+        ////then write a suitable c# example.
+        //// Answer:
+        //// Reference type parameters by value
+        //// when we pass a reference we are passing a copy of the address of the variable to the method so we can't change the address of the variable but we can change the value of the variable
+        //// Example:
+        //static int SumArrayByValue(int[] arr)
+        //{
+        //    int Sum = 0;
+        //    arr = [1, 2, 3];
+        //    for (int i = 0; i < arr.Length; i++)
+        //    {
+        //        Sum += arr[i];
+        //    }
+        //    return Sum;
+        //}
+        //// Reference type parameters by Ref
+        //// when we pass a reference we are passing orginal of the address of the variable to the method so we can change the address of the variable but we can change the value of the variable
+        //// Example:
+        //static int SumArrayByRef(ref int[] arr)
+        //{
+        //    int Sum = 0;
+        //    arr = [1, 2, 3];
+        //    for (int i = 0; i < arr.Length; i++)
+        //    {
+        //        Sum += arr[i];
+        //    }
+        //    return Sum;
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region CallQ1 
@@ -48,7 +78,37 @@
 
             #endregion
 
-           
+            #region CallQ2
+            //int[] arr1 = [4, 5, 6];
+            //Console.WriteLine(" arr1 Before Call Fun ");
+            //foreach (int num in arr1)
+            //{
+            //    Console.WriteLine(num);
+            //}
+            //SumArrayByValue(arr1);
+            //Console.WriteLine(" arr1 After Call Fun ");
+            //foreach (int num in arr1)
+            //{
+            //    Console.WriteLine(num);
+            //}
+            //Console.WriteLine($"Sum of arr1 is : {SumArrayByValue(arr1)}");
+            //////////////////////////////////////////////////////////////////////////////////
+            //Console.WriteLine(" arr1 Before Call Fun ");
+            //foreach (int num in arr1)
+            //{
+            //    Console.WriteLine(num);
+            //}
+            //SumArrayByRef(ref arr1);
+            //Console.WriteLine(" arr1 After Call Fun ");
+            //foreach (int num in arr1)
+            //{
+            //    Console.WriteLine(num);
+            //}
+            //Console.WriteLine($"Sum of arr1 is : {SumArrayByValue(arr1)}");
+
+            #endregion
+
+
 
         }
     }
