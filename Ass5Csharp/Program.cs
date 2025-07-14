@@ -1,4 +1,5 @@
-﻿using System.Diagnostics.CodeAnalysis;
+﻿using System.ComponentModel.Design;
+using System.Diagnostics.CodeAnalysis;
 using System.Diagnostics.Metrics;
 
 namespace Ass5Csharp
@@ -90,6 +91,19 @@ namespace Ass5Csharp
 
 
         #endregion
+
+        #region Q5
+        //static bool IsPrime(int num)
+        //{
+        //    if (num <= 1) return false;
+        //    for(int i =2;i*i<=num;i++)
+        //    {
+        //          if (num % i == 0) 
+        //            return false;
+        //    }
+        //    return true;
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region CallQ1 
@@ -149,6 +163,12 @@ namespace Ass5Csharp
             //Console.WriteLine("Enter a number:");
             //int num =int.Parse(Console.ReadLine() ?? "0");
             //SumOfDigits(num);
+            #endregion
+
+            #region CallQ5
+            //Console.WriteLine("Enter a number:");
+            //int num = int.Parse(Console.ReadLine() ?? "0");
+            //Console.WriteLine(IsPrime(num));
             #endregion
 
 
