@@ -1,4 +1,6 @@
-﻿namespace Ass5Csharp
+﻿using System.Diagnostics.CodeAnalysis;
+
+namespace Ass5Csharp
 {
     internal class Program
     {
@@ -59,6 +61,17 @@
         //    return Sum;
         //}
         #endregion
+
+        #region Q3 
+        ////q3:Write a c# Function that accept 4 parameters from user and
+        ////return result of summation and subtracting of two numbers
+        //static void Sum_SubFun(int a, int b , out int Sum , out int sub)
+        //{
+        //    Sum = a + b;
+        //    sub = a - b;
+        //}
+
+        #endregion
         static void Main(string[] args)
         {
             #region CallQ1 
@@ -108,6 +121,11 @@
 
             #endregion
 
+            #region CallQ3
+            //int sum, sub;
+            //Sum_SubFun(5,2, out sum, out sub);
+            //Console.WriteLine($"Sum is : {sum} \nSub is : {sub}");
+            #endregion
 
 
         }
