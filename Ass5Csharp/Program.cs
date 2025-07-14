@@ -104,6 +104,21 @@ namespace Ass5Csharp
         //    return true;
         //}
         #endregion
+
+        #region Q6
+        //static void MinMaxArray(int[]Arr)
+        //{
+        //    int max = Arr[0];
+        //    int min = Arr[0];
+        //    for (int i = 0; i < Arr.Length; i++)
+        //    {
+        //        if (Arr[i]>max)
+        //            max= Arr[i];
+        //        if (Arr[i]<min)
+        //            min = Arr[i];
+        //    }
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region CallQ1 
@@ -171,6 +186,11 @@ namespace Ass5Csharp
             //Console.WriteLine(IsPrime(num));
             #endregion
 
+            #region CallQ6
+            //int[] Arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            //MinMaxArray(Arr);
+            //Console.WriteLine($"Max is : {Arr.Max()} \nMin is : {Arr.Min()}");
+            #endregion
 
         }
     }
