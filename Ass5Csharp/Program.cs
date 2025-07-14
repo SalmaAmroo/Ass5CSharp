@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel.Design;
 using System.Diagnostics.CodeAnalysis;
 using System.Diagnostics.Metrics;
+using System.Runtime.CompilerServices;
 
 namespace Ass5Csharp
 {
@@ -119,6 +120,18 @@ namespace Ass5Csharp
         //    }
         //}
         #endregion
+
+        #region Q7
+        //static void Factorial(int num)
+        //{
+        //    int fact = 1;
+        //    for (int i = 1; i <= num; i++)
+        //        fact *= i;
+
+        //    Console.WriteLine($"Factorial of {num} is : {fact}");
+
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region CallQ1 
@@ -190,6 +203,10 @@ namespace Ass5Csharp
             //int[] Arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
             //MinMaxArray(Arr);
             //Console.WriteLine($"Max is : {Arr.Max()} \nMin is : {Arr.Min()}");
+            #endregion
+
+            #region CallQ7
+            //Factorial(5);
             #endregion
 
         }
