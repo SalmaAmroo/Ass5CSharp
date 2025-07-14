@@ -132,6 +132,21 @@ namespace Ass5Csharp
 
         //}
         #endregion
+
+        #region Q8
+        //static string ChangeChar(string word, int position,char newChar)
+        //{
+        //    if (position < 0 || position >= word.Length)
+        //    {
+        //        Console.WriteLine("Position is out of range.");
+        //        return word; 
+        //    }
+        //    char[] charArray = word.ToCharArray();
+        //    charArray[position] = newChar;
+
+        //    return new string(charArray);
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region CallQ1 
@@ -207,6 +222,10 @@ namespace Ass5Csharp
 
             #region CallQ7
             //Factorial(5);
+            #endregion
+
+            #region CallQ8
+            //Console.WriteLine( ChangeChar("Salma", 1, 'K'));
             #endregion
 
         }
