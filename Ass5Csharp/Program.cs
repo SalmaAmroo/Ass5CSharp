@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics.CodeAnalysis;
+using System.Diagnostics.Metrics;
 
 namespace Ass5Csharp
 {
@@ -72,6 +73,23 @@ namespace Ass5Csharp
         //}
 
         #endregion
+
+        #region Q4
+        ////q4:Write a program in C# Sharp to create a function to calculate the sum of the individual digits of a given number.
+        //static void SumOfDigits(int num)
+        //{
+        //    int sum = 0;
+        //    while(num !=0)
+        //    {
+        //        int digit = num % 10;
+        //        sum+= digit;
+        //        num /= 10;
+        //    }
+        //    Console.WriteLine($"Sum of digits is : {sum}");
+        //}
+
+
+        #endregion
         static void Main(string[] args)
         {
             #region CallQ1 
@@ -125,6 +143,12 @@ namespace Ass5Csharp
             //int sum, sub;
             //Sum_SubFun(5,2, out sum, out sub);
             //Console.WriteLine($"Sum is : {sum} \nSub is : {sub}");
+            #endregion
+
+            #region CallQ4
+            //Console.WriteLine("Enter a number:");
+            //int num =int.Parse(Console.ReadLine() ?? "0");
+            //SumOfDigits(num);
             #endregion
 
 
